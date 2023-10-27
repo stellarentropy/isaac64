@@ -3,7 +3,7 @@ package isaac64_test
 import (
 	"testing"
 
-	"nullprogram.com/x/isaac64"
+	"github.com/stellarentropy/isaac64"
 )
 
 func TestLcg128(t *testing.T) {

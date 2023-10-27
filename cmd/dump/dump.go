@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"nullprogram.com/x/isaac64"
+	"github.com/stellarentropy/isaac64"
 )
 
 func main() {

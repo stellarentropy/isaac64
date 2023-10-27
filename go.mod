@@ -1,3 +1,3 @@
-module nullprogram.com/x/isaac64
+module github.com/stellarentropy/isaac64
 
 go 1.11

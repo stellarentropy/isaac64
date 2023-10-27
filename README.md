@@ -4,7 +4,7 @@
 The generator structure implements `math/rand.Source64`, but it can also
 be used directly without an interface.
 
-    $ go get nullprogram.com/x/isaac64
+    $ go get github.com/stellarentropy/isaac64
 
 Since it's a cryptographic random number generator, it's meaningful to
 seed from `crypto/rand.Reader`:
@@ -14,6 +14,6 @@ r := isaac64.New()
 r.SeedFrom(rand.Reader)
 ```
 
-Documentation: <https://godoc.org/nullprogram.com/x/isaac64>
+Documentation: <https://godoc.org/github.com/stellarentropy/isaac64>
 
 [isaac]: https://www.burtleburtle.net/bob/rand/isaacafa.html
